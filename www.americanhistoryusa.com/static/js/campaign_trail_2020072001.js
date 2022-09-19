@@ -339,10 +339,10 @@ var _interpolateHSL = function(color1, color2, factor) {
 		swE = document.getElementById("switchingEst")
 		if (swE.innerHTML == rrr) {
 			swE.innerHTML = slrr
-			pvswitcher.innerText = "Switch to Popular Vote Estimate"
+			pvswitcher.innerText = "Popular Vote Estimate"
 		} else {
 			swE.innerHTML = rrr
-			pvswitcher.innerText = "Switch to District Estimate"
+			pvswitcher.innerText = "District Estimate"
 		}
 		document.getElementById("ev_est").style.display = ""
 	}
