@@ -587,7 +587,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 151,
     "fields": {
-      "candidate": 200,
+      "candidate": 203,
       "running_mate": 205
     }
   },
@@ -771,7 +771,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 153,
     "fields": {
-      "candidate": 200,
+      "candidate": 203,
       "running_mate": 207
     }
   },
@@ -787,7 +787,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 157,
     "fields": {
-      "candidate": 201,
+      "candidate": 203,
       "running_mate": 211
     }
   },
@@ -803,7 +803,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 159,
     "fields": {
-      "candidate": 201,
+      "candidate": 203,
       "running_mate": 213
     }
   },
@@ -875,7 +875,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 152,
     "fields": {
-      "candidate": 200,
+      "candidate": 203,
       "running_mate": 206
     }
   },
@@ -883,7 +883,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 154,
     "fields": {
-      "candidate": 200,
+      "candidate": 203,
       "running_mate": 208
     }
   },
@@ -931,7 +931,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 156,
     "fields": {
-      "candidate": 201,
+      "candidate": 203,
       "running_mate": 210
     }
   },
@@ -939,7 +939,7 @@
     "model": "campaign_trail.running_mate",
     "pk": 158,
     "fields": {
-      "candidate": 201,
+      "candidate": 203,
       "running_mate": 212
     }
   },
