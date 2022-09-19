@@ -67,10 +67,10 @@ switch(campaignTrail_temp.election_id)
 		
 	case 20:
 	HistHexcolour=["#FF0000","#0000FF","#FFFF00","00C100"];
-        HistName=["Donald Trump","Hillary Clinton","Gary Johnson","Jill Stein"];
-        HistEV=[306,232,0,0];
-        HistPV=["62,984,828","65,853,514","4,489,341","405,035"];
-        HistPVP=["46.1%","48.2%","3.3%","1.1%"];
+        HistName=["The Republicans","The Democrats","Gary Johnson","Jill Stein"];
+        HistEV=[TBD,TBD,TBD,TBD];
+        HistPV=["TBD","TBD","TBD","TBD"];
+        HistPVP=["TBD","TBD","TBD","TBD"];
 	break;
 	case 16:
 	HistHexcolour=["#FF0000","#0000FF","#FFFF00","#00C100"];
@@ -342,7 +342,7 @@ var _interpolateHSL = function(color1, color2, factor) {
 			pvswitcher.innerText = "Switch to Popular Vote Estimate"
 		} else {
 			swE.innerHTML = rrr
-			pvswitcher.innerText = "Switch to State Estimate"
+			pvswitcher.innerText = "Switch to District Estimate"
 		}
 		document.getElementById("ev_est").style.display = ""
 	}
@@ -526,7 +526,7 @@ reader.readAsText(file);
 	            if (e.candidate_json[i].pk == candidate_id.value) {
 	                t = i;
 	                break
-	            } $("#candidate_description_window").html('<div class="person_image" id="candidate_image">            <img src="' + e.candidate_json[t].fields.image_url + '" width="210" height="250"/>        </div>        <div class="person_summary" id="candidate_summary">        <ul><li>Name: ' + e.candidate_json[t].fields.first_name + " " + e.candidate_json[t].fields.last_name + "</li>        <li>Party: " + e.candidate_json[t].fields.party + "</li>        <li>Home State: " + e.candidate_json[t].fields.state + "</li>        </ul>" + e.candidate_json[t].fields.description + "</div>")
+	            } $("#candidate_description_window").html('<div class="person_image" id="candidate_image">            <img src="' + e.candidate_json[t].fields.image_url + '" width="210" height="250"/>        </div>        <div class="person_summary" id="candidate_summary">        <ul><li>Party: ' + e.candidate_json[t].fields.first_name + " " + e.candidate_json[t].fields.last_name + "</li>        <li>Ideology: " + e.candidate_json[t].fields.party + "</li>        <li>Leader: " + e.candidate_json[t].fields.state + "</li>        </ul>" + e.candidate_json[t].fields.description + "</div>")
 	    }
 
 	    function i() {
@@ -534,7 +534,7 @@ reader.readAsText(file);
 	            if (e.candidate_json[i].pk == running_mate_id.value) {
 	                t = i;
 	                break
-	            } $("#running_mate_description_window").html('<div class="person_image" id="running_mate_image">            <img src="' + e.candidate_json[t].fields.image_url + '" width="210" height="250"/>        </div>        <div class="person_summary" id="running_mate_summary">        <ul><li>Name: ' + e.candidate_json[t].fields.first_name + " " + e.candidate_json[t].fields.last_name + "</li>        <li>Party: " + e.candidate_json[t].fields.party + "</li>        <li>Home State: " + e.candidate_json[t].fields.state + "</li>        </ul>" + e.candidate_json[t].fields.description_as_running_mate + "</div>")
+	            } $("#running_mate_description_window").html('<div class="person_image" id="running_mate_image">            <img src="' + e.candidate_json[t].fields.image_url + '" width="210" height="250"/>        </div>        <div class="person_summary" id="running_mate_summary">        <ul><li>Party: ' + e.candidate_json[t].fields.first_name + " " + e.candidate_json[t].fields.last_name + "</li>        <li>Ideology: " + e.candidate_json[t].fields.party + "</li>        <li>Leader: " + e.candidate_json[t].fields.state + "</li>        </ul>" + e.candidate_json[t].fields.description_as_running_mate + "</div>")
 	    }
 
 	    function a(e) {
