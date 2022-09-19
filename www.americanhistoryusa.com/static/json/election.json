@@ -1,21 +1,6 @@
 [
   {
     "model": "campaign_trail.election",
-    "pk": 21,
-    "fields": {
-      "year": 2020,
-      "summary": "<p>The 2022 midtersm kick off.....</p>",
-      "image_url": "../static/images/2020-election-photo.jpg",
-      "winning_electoral_vote_number": 270,
-      "advisor_url": "../static/images/dillon-stepien.jpg",
-      "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-      "has_visits": 1,
-      "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
-      "creator":"Dan Bryan"
-    }
-  },
-  {
-    "model": "campaign_trail.election",
     "pk": 20,
     "fields": {
       "year": 2016,
@@ -26,7 +11,22 @@
       "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
       "has_visits": 1,
       "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
-      "creator":"Dan Bryan"
+      "creator":"T3CHOX"
+    }
+  },
+  {
+    "model": "campaign_trail.election",
+    "pk": 21,
+    "fields": {
+      "year": 2020,
+      "summary": "<p>The 2022 midtersm kick off.....</p>",
+      "image_url": "../static/images/2020-election-photo.jpg",
+      "winning_electoral_vote_number": 270,
+      "advisor_url": "../static/images/dillon-stepien.jpg",
+      "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+      "has_visits": 1,
+      "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
+      "creator":"GLITCHED"
     }
   },
   {
