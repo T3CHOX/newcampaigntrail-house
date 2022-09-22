@@ -68,9 +68,9 @@ switch(campaignTrail_temp.election_id)
 	case 20:
 	HistHexcolour=["#FF0000","#0000FF","#FFFF00","00C100"];
         HistName=["The Republicans","The Democrats","Gary Johnson","Jill Stein"];
-        HistEV=[TBD,TBD,TBD,TBD];
-        HistPV=["TBD","TBD","TBD","TBD"];
-        HistPVP=["TBD","TBD","TBD","TBD"];
+        HistEV=[1,1,1,1];
+        HistPV=["1","1","1","1"];
+        HistPVP=["1","1","1","1"];
 	break;
 	case 16:
 	HistHexcolour=["#FF0000","#0000FF","#FFFF00","#00C100"];
